@@ -1,0 +1,128 @@
+
+/*
+filename: layout.css
+author: Hussien nafee
+created: 20/10/2026
+description: CSS layout styling for Lab 05
+*/
+
+
+aside:hover {
+    display: block;   
+}
+.menu {
+    display: inline-block;
+}
+nav ul {
+    list-style: none;
+}
+aside {
+    border: 2px solid darkgray;
+    margin: 1em;
+    padding: 1em;
+    background-image: url("images/fade.jpg");
+    background-repeat: repeat-x;
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+header {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+}
+footer {
+    border-top: 4px double darkgray;
+}
+
+#lists {
+    float: left;
+}
+
+table {
+    margin: auto;
+}
+
+#tables {
+    float: right;
+}
+#hyperlinks {
+    clear: right;
+}
+
+#hyperlinks {
+    clear: both;
+    float: left;
+}
+
+#images {
+    float: right;
+}
+
+figure {
+    border: 2px solid #ccc;
+}
+
+#lists, #tables, #hyperlinks, #images {
+    width: 50%;
+    text-align: center;
+}
+
+ol, ul, dl {
+    text-align: left;
+}
+
+footer {
+    border-top: 4px double darkgray;
+    clear: both;
+}
+
+article {
+    min-width: 30em;
+}
+
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
+
+/* styling definition list */
+dl {
+    border: 3px double #ccc;
+    padding: 0.5em;
+}
+
+dt {
+    clear: left;
+    float: left;
+    width: 40%;
+    text-align: right;
+    font-weight: bold;
+    color: green;
+}
+
+dt::after {
+    content: " :";
+}
+
+dd {
+    width: 55%;
+    margin-left: 42%;
+}
+
+
